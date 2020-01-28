@@ -1,0 +1,15 @@
+{
+  "name": "vscode-88977",
+  "version": "1.0.0",
+  "description": "Issue about autocomplete imports in monorepo",
+  "main": "index.js",
+  "author": "Luciano Graziani",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "typescript": "^3.7.5"
+  }
+}

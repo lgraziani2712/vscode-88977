@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "composite": true,
+
+    // Without this, I cannot work without compilling every time I change something from other pkg
+    "baseUrl": "../",
+    "paths": {
+      "pkg-b/lib/*": ["pkg-b/src/*"]
+    }
+  },
+  "references": [{ "path": "../pkg-b" }]
+}
